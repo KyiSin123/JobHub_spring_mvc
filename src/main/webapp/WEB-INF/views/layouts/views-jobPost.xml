@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+<!-- Job Post List -->
+   <definition name="jobPostList" extends="template">
+    <put-attribute name="title" value="JobPostList" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/jobPostList.jsp" />
+  </definition>
+  <!-- Job Post Create -->
+  <definition name="createJobPost" extends="template">
+    <put-attribute name="title" value="createJob" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/createJobPost.jsp" />
+  </definition>
+  <!-- Job Post Create Confirm -->
+  <definition name="createJobPostConfirm" extends="template">
+    <put-attribute name="title" value="createJobConfirm" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/confirmJobPost.jsp" />
+  </definition>
+  <!-- Job Post Edit -->
+  <definition name="editJobPost" extends="template">
+    <put-attribute name="title" value="UpdateJobPost" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/updateJobPost.jsp" />
+  </definition>
+  <!-- Job Post Update -->
+  <definition name="confirmEditedJobPost" extends="template">
+    <put-attribute name="title" value="ConfirmUpdateJobPost" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/confirmUpdateJobPost.jsp" />
+  </definition>
+  <!-- Job Post List for Applicant -->
+  <definition name="findJobList" extends="template">
+    <put-attribute name="title" value="FindJobPost" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/findJobList.jsp" />
+  </definition>
+  <!-- Job Post Details -->
+  <definition name="detailsJobPost" extends="template">
+    <put-attribute name="title" value="DetailsJobPost" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/jobPostDetails.jsp" />
+  </definition>
+  <!-- Apply Job Post Details -->
+  <definition name="applyJobPost" extends="template">
+    <put-attribute name="title" value="ApplyJobPost" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/jobPost/applyJobPost.jsp" />
+  </definition>
+</tiles-definitions>

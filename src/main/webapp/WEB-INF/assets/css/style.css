@@ -1,0 +1,333 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEF3F4;
+  font-size: 20px;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.com-inner {
+  width: 85.3%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+.com-btn{
+  border: 1px solid #010120;
+  padding: 13px 25px;
+  border-radius: 25px;
+  color: #010120;
+  background-color: #a8c6fa;
+  text-decoration: none;
+}
+.com-ttl{
+  font-size: 50px;
+  /*color:#ff0000fd;*/
+  color: #01015d;
+}
+img{
+  width: 100%;
+}
+/* Home Page First Section */
+
+.home-first-sec{
+  padding: 20px 0 30px;
+}
+.home-first-sec .left-content{
+  float: left;
+  width:41%;
+}
+.home-first-sec .left-content h1{
+  padding-bottom: 20px;
+  width:100%;
+}
+.home-first-sec .left-content h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: #05878a;
+}
+.home-first-sec .left-content .main-content{
+  margin-bottom: 43px;
+}
+.home-first-sec .right-img{
+  float: right;
+  max-width: 581px;
+  width:49.3%;
+}
+
+/* Home Page Second Section */
+
+.home-second-sec{
+  padding: 45px 0 45px;
+  text-align: center;
+}
+.home-second-sec .cate-list{
+  padding: 45px 0 0;
+  margin-top:40px;
+}
+.home-second-sec h3{
+  font-size: 25px;
+}
+.home-second-sec p{
+  float: left;
+  font-size: 25px;
+  margin-bottom : 0px;
+}
+.home-second-sec .cate-list .category{
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  padding:20px 0;
+  margin-bottom: 40px;
+  background-color: #a8c6fa;
+  color: #01015d;
+}
+.home-second-sec .cate-list li:nth-child(3n){
+  margin-right: 0;
+}
+.home-second-sec .cate-list .category:hover{
+  border: 1px solid #01015d;
+}
+.home-second-sec .cate-list .category .jobType{
+  padding: 25px 0 20px;
+  text-decoration:none;
+}
+
+/* Home Page Slider Section */
+
+.slider-img{
+  padding: 30px 0 10px;
+}
+.slider-img .slider-list .item{
+  display: inline-block;
+}
+/* Home Page Third Section */
+
+.home-third-sec{
+  padding: 15px 0 45px;
+}
+.home-third-sec .about{
+  margin-top: 50px;
+  /* border : 2px solid #75b4d9; */
+  border : 2px solid #05878a;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  border-radius: 8px;
+}
+.home-third-sec .com-ttl{
+  text-align: center;
+}
+.home-third-sec .about-content{
+  float: left;
+  width: 49%;
+  padding: 7% 20px 5% 20px;
+  font-size: 22px;
+}
+.home-third-sec .about-content p{
+  padding-bottom: 30px;
+}
+.home-third-sec .about-content a{
+  color: #010120;
+  padding: 5px 10px;
+  background-color: #a8c6fa;
+  border-radius: 5px;
+}
+.home-third-sec .about-img{
+  float: right;
+  width: 50.9%;
+}
+
+/*  Ipad  */    
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  body {
+    font-size: 2.344vw;
+  }
+  .com-inner {
+    width: 85.3%;
+    margin: 0 auto;
+    max-width: 89.583vw;
+  }
+  .com-btn{
+    padding: 1.102vw 2.255vw;
+    border-radius: 3.255vw;
+  }
+  .com-ttl{
+    font-size: 4.208vw;
+  }
+  /* Home Page First Section */
+  
+  .home-first-sec{
+    padding: 2.104vw 0 3.906vw;
+  }
+  .home-first-sec .left-content{
+    font-size: 2.108vw;
+    width:50%;
+  }
+  .home-first-sec .left-content h1{
+    font-size: 4.208vw;
+    padding-bottom: 2.604vw;
+  }
+  .home-first-sec .left-content h2{
+    font-size: 2.6vw;
+    padding-bottom: 2.604vw;
+  }
+  .home-first-sec .left-content .main-content{
+    margin-bottom: 5.599vw;
+  }
+  .home-first-sec .right-img{
+    max-width: 75.651vw;
+    width:49.3%;
+  }
+  
+  /* Home Page Second Section */
+  
+  .home-second-sec{
+    padding: 5.859vw 0 5.859vw;
+  }
+  .home-second-sec .cate-list{
+    padding: 5.859vw 0 0;
+  }
+  .home-second-sec h3{
+    font-size: 2.604vw;
+  }
+  .home-second-sec p{
+    float: left;
+    font-size: 2.204vw;
+  }
+  .home-second-sec .cate-list .category{
+    width: 30%;
+  }
+  .home-second-sec .cate-list .category h4{
+    padding-top: 2.604vw;
+  }
+  
+  /* Home Page Third Section */
+  
+  .home-third-sec{
+    padding: 0.859vw 0 5.859vw;
+  }
+  .home-third-sec .about{
+    padding-top: 6.51vw;
+  }
+  .home-third-sec .about-content{
+    width: 49%;
+    padding: 3.125vw 2.604vw;
+    font-size: 2.308vw;
+  }
+  .home-third-sec .about-content p{
+    margin-bottom: 2.604vw;
+  }
+  .home-third-sec .about-img{
+    width: 50.9%;
+  }
+}
+/*  SP  */   
+@media screen and (max-width:767.9px) {
+  body {
+    font-size: 3.125vw;
+  }
+  .com-inner {
+    width: 85.3%;
+    max-width: 93.125vw;
+    margin: 0 auto;
+  }
+  
+  .com-btn{
+    border: 0.156vw solid #232323;
+    padding: 1.3vw 2.706vw;
+    border-radius: 3.906vw;
+    color: #232323;
+    background-color: #a8c6fa;
+  }
+  .com-ttl{
+    font-size: 5.25vw;
+  }
+  img{
+    width: 100%;
+  }
+  /* Home Page First Section */
+  
+  .home-first-sec{
+    padding: 1.125vw 0 4.688vw;
+  }
+  .home-first-sec .left-content{
+    float: left;
+    width:100%;
+    font-size:2.35vw;
+  }
+  .home-first-sec .left-content h1{
+    font-size: 5.25vw;
+    padding-bottom: 3.125vw;
+  }
+  .home-first-sec .left-content h2{
+    font-size: 2.906vw;
+    padding-bottom: 3.125vw;
+  }
+  .home-first-sec .left-content .main-content{
+    margin-bottom: 6.719vw;
+  }
+  .home-first-sec .right-img{
+    padding-top: 4.688vw;
+    float: right;
+    max-width: none;
+    width:100%;
+  }
+  
+  /* Home Page Second Section */
+  
+  .home-second-sec{
+    padding: 7.031vw 0 7.031vw;
+    text-align: center;
+  }
+  .home-second-sec .cate-list{
+    padding: 7.031vw 0 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .home-second-sec h3{
+    font-size: 3.125vw;
+  }
+  .home-second-sec p {
+    float: left;
+    font-size: 3.125vw;
+  }
+  .home-second-sec .cate-list li:nth-child(3n){
+    margin-right: 4.531vw;
+  }
+  .home-second-sec .cate-list .category{
+    width: 90%;
+    margin:0 auto;
+    padding-bottom: 3.125vw;
+    margin-bottom: 3.906vw;
+  }
+  .home-second-sec .cate-list .category h4{
+    padding-top: 1.563vw;
+  }
+  
+  /* Home Page Third Section */
+  
+  .home-third-sec{
+    padding: 1.031vw 0 7.031vw;
+  }
+  .home-third-sec .about{
+    padding-top: 7.813vw;
+  }
+  .home-third-sec .com-ttl{
+    text-align: center;
+  }
+  .home-third-sec .about-content{
+    float: left;
+    width: 100%;
+    padding: 5.469vw 3.125vw;
+    font-size: 2.5vw;
+  }
+  .home-third-sec .about-img{
+    float: right;
+    width: 100%;
+  }
+}

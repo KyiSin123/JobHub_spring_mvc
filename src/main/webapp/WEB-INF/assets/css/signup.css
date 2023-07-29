@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'IBM Plex Sans-Bold';
+  font-weight: 700;
+  src: url('../font/IBMPlexSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'IBM Plex Sans-Medium';
+  font-weight: 500;
+  src: url('../font/IBMPlexSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans-Regular';
+  font-weight: 400;
+  src: url('../font/IBMPlexSans-Regular.ttf');
+}
+.text-danger {
+  border-color: none;
+  background-color: transparent;
+}
+.com-inner {
+  width: 85.3%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+h1{
+  margin-bottom:10px;
+  color: #01015d;
+  font-family: 'IBM Plex Sans-Bold';
+  font-size: 25px;
+}
+.signup-container{
+  width:40%;
+  margin:0 auto;
+  margin-top:100px;
+  padding: 50px 60px 60px 40px;
+  border:none;
+  background-color: #ced7df;
+  text-align: center;
+  border-radius: 20px;
+}
+.sign-input
+{
+    width: 88%;
+    margin-top:6px;
+    padding: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 8px;
+}
+.sign-select{
+  width: 93%;
+  margin-top:6px;
+  padding: 10px;
+  border: 1px solid rgb(168, 166, 166);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  border-radius: 8px;
+}
+.form-group{
+  display: block;
+  padding-top:30px;
+/*   padding-left: 70px; */
+  font-family: 'IBM Plex Sans-Regular';
+  font-size: 18px;
+  text-align: left;
+}
+.registerbtn{
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 5px 30px;
+  border:none;
+  background-color: #6d95d2;
+  color:aliceblue;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.forgot-pass{
+  padding-top: 10px;
+}
+/*.label{
+font-family: 'IBMPlexSans-Regular';
+font-size: 16px;
+}*/
+/*Ipad*/
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .com-inner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+  h1{
+    font-family: 'IBM Plex Sans-Bold';
+    font-size: 23px; 
+    
+  }
+  .sign-container{
+    width:40%;
+    margin:0 auto;
+    margin-top:100px;
+    padding: 50px 60px 60px 40px;
+    border:none;
+    background-color: #ced7df;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .sign-input
+  {
+      width: 100%;
+      margin-top:6px;
+      padding: 10px;
+      border: 1px solid rgb(168, 166, 166);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 8px;
+  }
+  .sign-select{
+    width: 100%;
+    margin-top:6px;
+    padding: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  }
+  .form-group{
+    display: block;
+    padding-top:30px;
+    padding-left:11px;
+    font-family: 'IBM Plex Sans-Regular';
+    font-size: 15px;
+    text-align: left;
+  }
+.registerbtn{
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  border:none;
+  background-color: #6d95d2;
+  color:aliceblue;
+  cursor: pointer;
+  border-radius: 10px;
+}
+}
+/*sp*/
+@media screen and (max-width: 767.9px){
+  .com-inner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+  }
+  .h1{
+    width: 100%;
+    font-family: 'IBM Plex Sans-Bold';
+    font-size: 16px;
+  }
+  .sign-container{
+    width:66%;
+    margin:0 auto;
+    margin-top:100px;
+    padding: 20px 60px 60px 40px;
+    border:none;
+    background-color: #ced7df;
+    text-align: center;
+    max-width: 250px;
+    border-radius: 20px;
+  }
+  .sign-input
+  {
+      width: 100%;
+      margin-top:6px;
+      padding: 10px;
+      border: 1px solid rgb(168, 166, 166);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 8px;
+  }
+  .sign-select{
+    width: 100%;
+    margin-top:6px;
+    padding: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  }
+  .form-group{
+    display: block;
+    padding-top:25px;
+    padding-left:11px;
+    font-family: 'IBM Plex Sans-Regular';
+    font-size: 15px;
+    text-align: left;
+  }
+  .registerbtn{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border:none;
+    background-color: #6d95d2;
+    color:aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}

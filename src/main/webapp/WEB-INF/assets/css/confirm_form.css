@@ -1,0 +1,190 @@
+body {
+  margin: 0 auto !important;
+  font-size: 20px;
+ }
+.confirm-form .card {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-top: 7%;
+  background-color: lightgrey;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+}
+.confirm-form .card .profile-header {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #01015d;
+  letter-spacing: 0.5px;
+  margin-bottom: 3%;
+}
+.confirm-form .profile-img {
+  margin: 0 0 3% 43.5%;
+  width: 12%;
+} 
+.confirm-form .card ul {
+  margin: 0 auto;
+  max-width: 80%;
+  line-height: 4;
+}
+.confirm-form .card ul li .float-right {
+  float: right;
+  color : #000000;
+}
+.confirm-form .card .btn-div {
+  margin: 0 auto;
+  max-width: 23.5%;
+}
+.confirm-form .card .confirm-btn{
+  width: 40%;
+  margin: 0 auto;
+}
+.confirm-form .create-btn, .apply-btn {
+  width : 130px;
+  margin : 0 auto;
+  padding: 10px;
+  border-radius: 15px; 
+  background-color: #a8c6fa;
+  font-size: 15px;
+}
+.confirm-form .detail-back-btn{
+  width : 120px;
+  margin : 0 auto;
+  text-align :center;
+  color : #000000;
+}
+.confirm-form .cancel-btn {
+  width : 120px;
+  margin : 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.confirm-form .form-img {
+  margin: 0 0 3% 43.5%;
+  width: 12%;
+  display: block;
+}
+.confirm-form .confirm-btn{
+    width:32%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+  }
+  .confirm-form .type-confirm-btn{
+    width:37%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+  }
+
+/*for ipad*/
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .confirm-form .card {
+    margin: 0 auto;
+    max-width: 85%;
+    margin-top: 10%;
+    margin-bottom: 2.604vw;
+  }
+  .confirm-form .profile-header {
+    font-size: 3.255vw;
+  }
+  .confirm-form .card ul {
+    margin: 0 auto;
+    max-width: 90%;
+    line-height: 4;
+    font-size: 2.604vw;
+  }
+  .confirm-form .card .confirm-btn{
+    width: 39%;
+    margin: 0 auto;
+  }
+  .confirm-form .create-btn, .apply-btn {
+    width : 14.276vw;
+	margin : 0 auto;
+	padding: 0.651vw 1.302vw;
+	border-radius: 1.953vw; 
+	background-color: #a8c6fa;
+	font-size: 1.953vw;
+	}
+  .confirm-form .cancel-btn {
+	width : 12.37vw;
+	margin : 0 auto;
+	padding: 0.651vw 1.302vw;
+	border-radius: 1.953vw;
+	font-size: 1.953vw;
+  } 
+  .confirm-form .confirm-btn{
+  width:32%;
+  text-align:center;
+  margin:0 auto;
+  margin-top:3.906vw;
+  }
+    .confirm-form .type-confirm-btn{
+    width:42%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:5.339vw;
+  }
+}
+
+/*for moblie */
+@media screen and (max-width: 767.9px) {
+  .confirm-form .card {
+    max-width: 100%;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+  }
+  .confirm-form .profile-header {
+    padding-top: 3.125vw;
+    font-size: 3.906vw;
+    letter-spacing: 0.078vw;
+  }
+  .confirm-form .card ul {
+    margin: 0 auto;
+    max-width: 95%;
+    line-height: 4;
+  }
+  /* .confirm-form .confirm-btn1 {
+    margin-left: 34%;
+    padding: 1.563vw;
+    border-radius: 2.344vw;
+    font-size: 2.656vw; 
+  }
+  .confirm-form .confirm-btn2 {
+    padding: 1.563vw;
+    border-radius: 2.344vw;
+    font-size: 2.656vw;
+  } */
+  .confirm-form .card .confirm-btn{
+    width: 46%;
+    margin: 0 auto;
+  }
+  .confirm-form .create-btn, .apply-btn {
+    width : 19.844vw;
+	margin : 0 auto;
+	padding: 0.781vw 1.563vw;
+	border-radius: 2.344vw; 
+	background-color: #a8c6fa;
+	font-size: 2.344vw;
+  }
+  .confirm-form .cancel-btn {
+	width : 14.844vw;
+	margin : 0 auto;
+	padding: 0.781vw 1.563vw;
+	border-radius: 2.344vw;
+	font-size: 2.344vw;
+  }
+  .confirm-form .confirm-btn{
+    width:58%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+  }
+    .confirm-form .type-confirm-btn{
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:4.531vw;
+   }
+}

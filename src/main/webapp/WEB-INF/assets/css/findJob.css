@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEF3F4;
+  font-size: 20px;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.com-inner {
+  width: 85.3%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+/* Find Job Page First Section */
+
+.find-first-sec{
+  padding: 40px 0 30px;
+}
+.find-first-sec .job-ttl{
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+.find-first-sec .job-ttl h2{
+  font-size: 25px;
+}
+.nav-tabs {
+  width: 100%;
+  margin: 0 auto;
+}
+.find-first-sec .type .nav-tabs li {
+  float: left;
+  padding: 16px;
+}
+.find-first-sec .type .nav-tabs li a{
+  color: #010166;
+}
+.find-first-sec .type .nav-tabs li a:hover{
+  background-color: lightgray;
+  padding: 5px;
+}
+.find-first-sec .post-list{
+  width:85%;
+  margin:0 auto;
+  padding: 20px 0;
+}
+
+.find-first-sec .pagination .page-link{
+  background-color:#a8c6fa;
+  color:#000000;
+  font-size: 15px;
+}
+
+.find-first-sec .post-list .post{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+  border-radius: 10px;
+  padding: 35px 20px;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+.find-first-sec .post-list li:nth-child(2n){
+  margin-right: 0;
+}
+.find-first-sec .post-list .tab1{
+  background-color: #54f1bd;
+}
+.find-first-sec .post-list .tab2{
+  background-color: #dda0dd;
+}
+.find-first-sec .post-list .tab3{
+  background-color: #81b220;
+}
+.find-first-sec .post-list .post .left-label{
+  float: left;
+  padding-right: 5px;
+}
+.find-first-sec .post-list .post .right-txt{
+  float: left;
+}
+.find-first-sec .post-list .post .detail{
+  float: right;
+  bottom: 10px;
+}
+.find-first-sec .post-list .post .detail a{
+  color: #04229b;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/*  Ipad  */    
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  body {
+    font-size: 2.083vw;
+  }
+  .com-inner {
+    width: 85.3%;
+    margin: 0 auto;
+    max-width: 89.583vw;
+  }
+  /* Find Job Page First Section */
+  
+  .find-first-sec{
+    padding: 0.104vw 0 3.906vw;
+  }
+  .find-first-sec .job-ttl{
+    padding: 2.604vw;
+  }
+  .find-first-sec .job-ttl h2{
+    font-size: 2.344vw;
+  }
+  .nav-tabs {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .find-first-sec .type .nav-tabs li {
+    float: left;
+    padding: 1.083vw 1.083vw;
+  }
+  .find-first-sec .type .nav-tabs li a{
+    color: #010166;
+  }
+  .find-first-sec .type .nav-tabs li a:hover{
+    background-color: lightgray;
+    padding: 0.651vw;
+  }
+  .find-first-sec .post-list{
+    padding: 2.604vw 0;
+  }
+  .find-first-sec .post-list .post{
+    max-width: 45.573vw;
+    width: 47%;
+    border-radius: 1.302vw;
+    padding: 4.557vw 2.604vw;
+    box-shadow: 0 0.521vw 1.042vw 0 #00000033, 0 0.781vw 2.604vw 0 #00000030;
+  }
+  .find-first-sec .post-list .post .left-label{
+    float: left;
+    padding-right: 0.651vw;
+  }
+  .find-first-sec .post-list .post .right-txt{
+    float: left;
+  }
+  .find-first-sec .post-list .post .detail{
+    float: right;
+    bottom: 1.302vw;
+  }
+  .find-first-sec .post-list .post .detail a{
+    color: #5754f1;
+  }
+}
+/*  SP  */   
+@media screen and (max-width:767.9px) {
+  body {
+    font-size: 2.188vw;
+  }
+  .com-inner {
+    width: 85.3%;
+    margin: 0 auto;
+    max-width: 93.125vw;
+  }
+  /* Find Job Page First Section */
+  
+  .find-first-sec{
+    padding: 4.125vw 0 2.688vw;
+  }
+  .find-first-sec .job-ttl{
+    padding: 1.125vw;
+  }
+  .find-first-sec .job-ttl h2{
+    font-size: 2.5vw;
+  }
+  .nav-tabs {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .find-first-sec .type .nav-tabs li {
+    float: left;
+    padding: 1.4vw 1.4vw;
+  }
+  .find-first-sec .type .nav-tabs li a{
+    color: #010166;
+  }
+  .find-first-sec .type .nav-tabs li a:hover{
+    background-color: lightgray;
+    padding: 0.781vw;
+  }
+  .find-first-sec .post-list{
+    padding: 3.125vw 0;
+    width: 65%;
+    margin: 0 auto;
+  }
+  .find-first-sec .post-list .post{
+    max-width: 54.688vw;
+    width: 100%;
+    margin-bottom: 4.688vw;
+    border-radius: 1.563vw;
+    padding: 5.469vw 3.125vw;
+    box-shadow: 0 0.625vw 1.25vw 0 #00000033, 0 0.938vw 3.125vw 0 #00000030;
+  }
+  .find-first-sec .post-list .post .left-label{
+    float: left;
+    padding-right: 0.781vw;
+  }
+  .find-first-sec .post-list .post .right-txt{
+    float: left;
+  }
+  .find-first-sec .post-list .post .detail{
+    float: right;
+    bottom: 1.563vw;
+  }
+  .find-first-sec .post-list .post .detail a{
+    color: #5754f1;
+  }
+}

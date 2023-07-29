@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="createCompany" extends="template">
+        <put-attribute name="title" value="create" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/createCompany.jsp" />
+    </definition>
+    <definition name="companyConfirm" extends="template">
+        <put-attribute name="title" value="comfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyConfirm.jsp" />
+    </definition>
+     <!--  <definition name="companyList" extends="template">
+        <put-attribute name="title" value="companyList" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyList.jsp" />
+    </definition> -->
+     <definition name="companyProfile" extends="template">
+        <put-attribute name="title" value="CompanyProfile" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyProfile.jsp" />
+    </definition>
+     <definition name="companyEditUpdate" extends="template">
+        <put-attribute name="title" value="edit" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyEditUpdate.jsp" />
+    </definition>
+      <definition name="companyUpdateComfirm" extends="template">
+        <put-attribute name="title" value="edit" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyUpdateComfirm.jsp" />
+    </definition>
+    <definition name="companyList" extends="template">
+        <put-attribute name="title" value="edit" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/companyList.jsp" />
+    </definition>
+    <definition name="applicantJobPostList" extends="template">
+        <put-attribute name="title" value="applicantPostList" />
+        <put-attribute name="body"
+            value="/WEB-INF/views/pages/company/applicantJobPostList.jsp" />
+    </definition>
+  
+</tiles-definitions>

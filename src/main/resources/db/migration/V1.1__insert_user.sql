@@ -1,0 +1,3 @@
+INSERT INTO `user` (`username`, `email`, `password`, `address`, `gender`, `created_at`, `updated_at`) VALUES
+                     ('admin', 'admin@mail.com', '$2y$10$CqmdlNQr3gQpXKYOqhds1.MXlhmX8BX76sSWv4Sm6E6eNXvdbRS/O', '301 Grady Loop Apt. 795\nSouth Adrienstad, UT 63380', 'f', NOW(), NOW()),
+                     ('user', 'user@mail.com', '$2y$10$Z3NkvrzXOkUn5UNsv.3K0.f35q0VuzJ3XSNWqH24yuyuNRsO/jxkm', '60463 Hansen Corners\nPort Della, VA 55294-4471', 'm', NOW(), NOW());

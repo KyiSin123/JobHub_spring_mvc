@@ -1,0 +1,160 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+@font-face {
+  font-family: 'IBM Plex Sans-Bold';
+  font-weight: 700;
+  src: url('../font/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans-Medium';
+  font-weight: 500;
+  src: url('../font/IBMPlexSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans-Regular';
+  font-weight: 400;
+  src: url('../font/IBMPlexSans-Regular.ttf');
+}
+
+a {
+  text-decoration: none;
+}
+
+.com-inner {
+  width: 85.3%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.email-header {
+  font-family: 'IBM Plex Sans-Bold';
+  font-size: 25px;
+}
+
+.email-container {
+  width: 51%;
+  margin: 0 auto;
+  margin-top: 70px; 
+  margin-bottom : 30px;
+  /* margin-top:100px; */
+  padding: 50px 60px 60px 40px;
+  border: none;
+  background-color: #ced7df;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.email-input {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+    rgba(0, 0, 0, 0.19);
+}
+
+.email-registerbtn {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px 50px;
+  border: none;
+  background-color: #6d95d2;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.forgot-pass {
+  margin-top: 20px;
+}
+
+.email-error {
+  color: red;
+}
+
+.error-message {
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+/*Ipad*/
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .com-inner {
+    width: 85.3%;
+    margin: 0 auto;
+    max-width: 89.583vw;
+  }
+  .email-container {
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 6.51vw;
+    margin-bottom : 2.604vw;
+    /*  margin-top:13.021vw; */
+    padding: 6.51vw 7.813vw 7.813vw 5.208vw;
+    border: none;
+    background-color: #ced7df;
+    text-align: center;
+    border-radius: 2.604vw;
+  }
+  .email-input {
+    width: 100%;
+    margin-top: 2.604vw;
+    padding: 1.302vw;
+    border: 0.13vw solid rgb(168, 166, 166);
+    border-radius: 2.604vw;
+    box-shadow: 0 0.521vw 1.042vw 0 rgba(0, 0, 0, 0.2), 0 0.781vw 2.604vw 0
+      rgba(0, 0, 0, 0.19);
+  }
+}
+/*SP*/
+@media screen and (max-width: 767.9px) {
+  .com-inner {
+    width: 85.3%;
+    max-width: 93.125vw;
+    margin: 0 auto;
+  }
+  .email-header {
+    font-family: 'IBM Plex Sans-Bold';
+    font-size: 3.125vw;
+    width: 100%;
+  }
+  .email-container {
+    width: 82%;
+    max-width: 68.063vw;
+    margin: 0 auto;
+    margin-top: 10.156vw;
+    margin-bottom : 4.688vw;
+    /* margin-top:15.625vw; */
+    padding: 3.125vw 9.375vw 9.375vw 6.25vw;
+    border: none;
+    background-color: #ced7df;
+    text-align: center;
+    border-radius: 3.125vw;
+  }
+  .email-input {
+    width: 100%;
+    max-width: 40.063vw;
+    margin-top: 3.125vw;
+    padding: 1.563vw;
+    border: 0.156vw solid rgb(168, 166, 166);
+    border-radius: 3.125vw;
+    box-shadow: 0 0.625vw 1.25vw 0 rgba(0, 0, 0, 0.2), 0 0.938vw 3.125vw 0
+      rgba(0, 0, 0, 0.19);
+    font-size: 12px;
+  }
+  .email-registerbtn {
+    margin-top: 3.125vw;
+    margin-left: 1.563vw;
+    padding: 0.781vw 7.813vw;
+    border: none;
+    background-color: #6d95d2;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 3.125vw;
+    font-size: 12px;
+  }
+}

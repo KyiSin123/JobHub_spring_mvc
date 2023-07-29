@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans
+    xmlns="http://www.springframework.org/schema/security"
+    xmlns:beans="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans.xsd  
+    http://www.springframework.org/schema/security  
+    http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <http>
+        <intercept-url pattern="/applicant/list"
+            access="hasRole('ADMIN')" />
+        <!-- Company -->
+        <intercept-url pattern="/company/List"
+            access="hasRole('ADMIN')" />
+        <!-- Job Post -->
+        <intercept-url pattern="/post/list"
+            access="hasAnyRole('COMPANY')" />
+
+        <intercept-url pattern="/post/create"
+            access="hasRole('COMPANY')" />
+        <intercept-url pattern="/post/apply"
+            access="hasRole('APPLICANT')" />
+        <intercept-url pattern="/post/apply/list"
+            access="hasRole('COMPANY')" />
+
+        <!-- <intercept-url pattern="/post/create/confirm" access="hasRole('COMPANY')" 
+            /> -->
+        <!-- <intercept-url pattern="/post/insert" access="hasRole('COMPANY')" 
+            /> -->
+        <!-- <intercept-url pattern="/post/edit" access="hasRole('COMPANY')" 
+            /> -->
+        <!-- <intercept-url pattern="/post/edit/confirm" access="hasRole('COMPANY')" 
+            /> <intercept-url pattern="/post/update" access="hasRole('COMPANY')" /> <intercept-url 
+            pattern="/post/delete" access="hasRole('COMPANY')" /> -->
+
+        <!-- Job Type -->
+        <intercept-url pattern="/jobType/list"
+            access="hasRole('ADMIN')" />
+
+        <intercept-url pattern="/createUser"
+            access="hasRole('ADMIN')" />
+        <intercept-url pattern="/saveAdmin"
+            access="hasRole('ADMIN')" />
+        <intercept-url pattern="/userList"
+            access="hasRole('ADMIN')" />
+        <intercept-url pattern="/editUser"
+            access="hasRole('ADMIN')" />
+        <intercept-url pattern="/updateUser"
+            access="hasRole('ADMIN')" />
+        <intercept-url pattern="/deleteUser"
+            access="hasRole('ADMIN')" />
+
+        <form-login login-page="/login"
+            login-processing-url="/loginPage"
+            authentication-failure-url="/login?error"
+            username-parameter="useremail" password-parameter="password"
+            default-target-url="/home" />
+        <logout logout-url="/logout"
+            logout-success-url="/homePageView" />
+        <access-denied-handler error-page="/error" />
+
+    </http>
+
+    <authentication-manager>
+        <authentication-provider
+            user-service-ref="userService">
+            <password-encoder ref="passwordEncoder" />
+        </authentication-provider>
+    </authentication-manager>
+</beans:beans>  
